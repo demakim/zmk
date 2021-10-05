@@ -2,5 +2,6 @@
   "files.associations": {
     "*.overlay": "dts",
     "*.keymap": "dts"
-  }
+  },
+  "cmake.sourceDirectory": "${workspaceFolder}/app"
 }

@@ -73,7 +73,7 @@ jobs:
       - name: Prepare variables
         id: variables
         run: |
-          SHIELD_ARG=
+          SHIELD_ARG=draculad
           ARTIFACT_NAME="${{ matrix.board }}"
 
           if [ -n "${{ matrix.shield }}" ]; then
